@@ -67,11 +67,11 @@
 
 .mobile-layout .book-cover {
   position: relative;
-  height: 800px;
+  height: 1100px;
   /* left: -52.5%; */
   /* left: 50%; */
   /* margin: 0 auto; */
-  width: 90%;
+  width: 82%;
   border-top-left-radius: var(--mobile-radius);
   border-top-right-radius: var(--mobile-radius);
   /* background-color: var(--intro-bg); */
@@ -84,31 +84,31 @@
   width: 100%;
   height: 600px;
   position: absolute;
-  top: 140px;
+  top: 340px;
   left: 50%;
   /* margin: 0 auto; */
   z-index: 5;
   /* transform: translate(-50%,-5%) translateZ(28.5px); */
-  transform: translate(-45%,-4%) translateZ(50px);
+  transform: translate(-40%,-4%) translateZ(-60px);
 }
 
 .mobile-layout .book-side {
   position: absolute;
-  top: 630px;
+  top: 830px;
   left: 217px;
   width: 530px;
   /* transform: translateY(50px) translateX(0px) translateZ(40px) rotateX(-104deg); */
   /* transform: translateY(50px) translateX(0px) translateZ(30px) rotateX(234deg); */
-  transform: translateY(40px) translateX(0px) translateZ(34px) rotateX(276deg);
+  transform: translateY(40px) translateX(0px) translateZ(-90px) rotateX(276deg);
 }
-/* .mobile-layout .book-cover:hover { */
+.mobile-layout .book-cover:hover {
   /* width: 96%; */
-     /* ------ Main--- */  /* transform: rotateX(44deg) translateZ(-8px) scale(0.85); */
+     /* ------ Main--- */  transform: rotateX(44deg) translateZ(-8px) scale(0.85);
   /* transform: rotateX(75deg) translateZ(3px) scale(0.85); */
-/* } */
-/* .mobile-layout .book-cover:hover + .preface { */
-  /* transform: translateY(-450px); */
-/* } */
+}
+.mobile-layout .book-cover:hover + .preface {
+  transform: translateY(-450px);
+}
 /* .mobile-layout .book-cover:hover + .preface .icon { */
   /* transform: rotateX(180deg); */
 /* } */
