@@ -3,47 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <title>CodePen - 3D Ebook Flip Animation</title>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&amp;family=Quicksand:wght@500&amp;display=swap'><link rel="stylesheet" href="./style.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&amp;family=Quicksand:wght@500&amp;display=swap'>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="mobileButton.css">
+  <link rel="stylesheet" href="menuBar.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 <!-- partial:index.partial.html -->
 <div class="container">
-  <!-- <div class="info">
-    Mobile - Try tapping
-  </div> -->
   <div class="mobile-layout">
-    <!-- <div class="notification-header">
-      <div class="time">
-        9:41
-      </div>
-      <div class="necessities">
-        <i class="fas fa-signal"></i>
-        <i class="fas fa-wifi"></i>
-        <i class="fas fa-battery-full"></i>
-      </div>
-    </div> -->
     <div class="actions">
-      <!-- <i class="fas fa-chevron-left"></i> -->
-      <!-- <i class="fas fa-bookmark"></i> -->
       <i class="fas fa-bars" id="menu-icon-mobile-view"></i>
       <a href="#"><i class="logo-mobileview"><a href="#"><img src="logo.png" alt=""></a></i>
-      <!-- <i class="logo"><img src="/rounded-logo.png" alt=""></i> -->
-
     </div>  
-    <div class="book-cover">
-        <img class="book-top" src="https://raw.githubusercontent.com/atomic-variable/images-repo/e37f432405904a280858e5437ce1960753bc78a3/book-top.svg" alt="book-top" />
+    
+      <div class="MenuBar" id="menu-Bar">
+        <div class="menuList">
+         <div class="menuIcon flex-div">
+            <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+            <lord-icon src="https://cdn.lordicon.com/etqbfrgp.json" trigger="hover" style="width:100px;height:100px">
+            </lord-icon>
+            <p><a href="#">Home</a></p>        
+         </div>
+         <div class="menuIcon flex-div">
+          <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+          <lord-icon
+              src="https://cdn.lordicon.com/kjkiqtxg.json"
+              trigger="hover"
+              style="width:100px;height:100px">
+          </lord-icon>
+            <p><a href="#">Help</a></p>        
+         </div>
+         <div class="menuIcon flex-div">
+            <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+            <lord-icon src="https://cdn.lordicon.com/etqbfrgp.json" trigger="hover" style="width:100px;height:100px">
+            </lord-icon>
+            <p><a href="#">Home</a></p>        
+         </div>
+         <div class="menuIcon flex-div">
+            <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+            <lord-icon src="https://cdn.lordicon.com/etqbfrgp.json" trigger="hover" style="width:100px;height:100px">
+            </lord-icon>
+            <p><a href="#">Home</a></p>        
+         </div>
+         <div class="follow">
+             <a href="https://www.facebook.com/mukul.dahiya.524" target="_blank" class="fab fa-facebook-f"></a>
+             <a href="https://www.instagram.com/_mukul_j_a_a_t/" target="_blank"class="fab fa-instagram"></a>
+             <a href="https://www.linkedin.com/in/mukul-dahiya-76902022b"target="_blank" class="fab fa-linkedin"></a>
+             <a href="" class="fab fa-voicemail"></a>
+         </div>
+        </div>
+      </div>
+    <div class="book-cover" id="book-cover">
+        <img class="book-top" id="book-top" src="https://raw.githubusercontent.com/atomic-variable/images-repo/e37f432405904a280858e5437ce1960753bc78a3/book-top.svg" alt="book-top" />
       <img class="book-side" src="https://raw.githubusercontent.com/atomic-variable/images-repo/e37f432405904a280858e5437ce1960753bc78a3/book-side.svg" alt="book-side" /> 
     </div>
     <div class="preface">
       <div class="content">
         <div class="header">
           <div class="title">APNI KALM</div>
-          <!-- <div class="icon">
-            <i class="fas fa-chevron-down"></i>
-          </div> -->
         </div>
-        <!-- <div class="author">by Anne Frank</div> -->
         <div class="body">
           <div id="About">
           <p>
@@ -54,6 +75,8 @@
           </p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque et magni earum tempora placeat maiores voluptatem fugit, ratione fuga quasi, voluptas aliquid optio delectus. Non cumque minus repudiandae voluptas blanditiis?</p>
           <p>lorem50</p>
+
+
           <div class="mobile-button">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
               <defs>
@@ -105,12 +128,7 @@
 
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore corporis officiis vitae sed et, assumenda odit fugit dolorum error repellat beatae officia odio maiores modi culpa ex accusantium, at architecto.</p>
 </div>
-
-<!--
-https://saranyamk.github.io/images-repo/book-top.svg
-https://saranyamk.github.io/images-repo/book-side.svg
--->
-<!-- partial -->
+  <script src="script.js"></script>
   <script src='https://kit.fontawesome.com/76e9768b91.js'></script>
 </body>
 </html>

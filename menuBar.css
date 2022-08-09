@@ -1,0 +1,66 @@
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+.MenuBar{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    overflow: hidden;
+    z-index: 20;
+    width: 0%;
+    transition: width 0.5s ease;
+    
+}
+.sideBar{
+    width: 40%;
+}
+.menuList{
+    display: flex;
+    row-gap: 100px;
+    /* column-gap: 50px; */
+    flex-direction: column ;
+
+}
+.menuIcon{
+    justify-content: center;
+    /* margin: 0px auto; */
+    
+}
+.menuList{
+    position: relative;
+    top: 15%;
+}
+.menuIcon a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    /* font-size: 50px; */
+    /* color: white; */
+}
+.menuIcon:hover a {
+    color: red;
+    letter-spacing: 2rem;
+}
+.follow{
+    margin-top: 300px;
+    /* align-self: flex-end; */
+}
+.follow a{
+    margin: 0 40px ;
+    text-decoration: none;
+    width: 10px;
+    color: white;
+    font-size: 2.5rem;
+    transition: transform .2s;
+}
+.follow a:hover{
+    color:red;
+    transform: scale(1.5);
+}
